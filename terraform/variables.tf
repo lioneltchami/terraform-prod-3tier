@@ -15,7 +15,7 @@ variable "image_id" {
 
 variable "instance_type" {
   type    = string
-  default = "t3.xlarge"
+  default = "t2.micro"
 }
 
 variable "bastion_host_az" {
