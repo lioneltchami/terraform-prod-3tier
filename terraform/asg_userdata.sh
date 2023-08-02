@@ -38,8 +38,8 @@ apt-get install python3-dev default-libmysqlclient-dev build-essential -y
 
 # Clone the app
 cd /
-git clone https://github.com/Kelvinskell/terra-tier.git
-cd /terra-tier
+git clone https://github.com/apotitech/terraform-prod-3tier.git
+cd /terraform-prod-3tier
 
 # Populate App with environmental variables
 echo "MYSQL_ROOT_PASSWORD=$PASSWORD" > .env
